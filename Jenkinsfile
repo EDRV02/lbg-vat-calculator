@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Install') {
         steps {
-            // Install the ReactJS dependencies
+            
             sh "npm install"
         }
     }
